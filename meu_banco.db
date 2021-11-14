@@ -1,0 +1,12 @@
+CREATE SCHEMA grupowl;
+CREATE TABLE usuario(
+  id int primary key auto_increment not null,
+  nome varchar(250),
+  cpf varchar(250),
+  comida varchar(250) 
+);
+INSERT INTO grupowl.usuario (id, nome, cpf, comida) VALUES (1, 'Daniel Pereira de Brito', '456.999.563-01', 'Pão de queijo');
+INSERT INTO grupowl.usuario (id, nome, cpf, comida) VALUES (2, 'Ana Paula', '758.691.543-41', 'Batata frita');
+INSERT INTO grupowl.usuario (id, nome, cpf, comida) VALUES (3, 'Rafael Costa', '456.958.134.74', 'Cocada');
+INSERT INTO grupowl.usuario (id, nome, cpf, comida) VALUES (4, 'Ricardo', '856.758.134.74', 'Bananada');
+INSERT INTO grupowl.usuario (id, nome, cpf, comida) VALUES (5, 'Pedro', '789.369.741-65', 'Café');
